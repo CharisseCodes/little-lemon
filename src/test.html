@@ -1,0 +1,29 @@
+<h1>Book a Table</h1>
+<form method="POST">
+  <fieldset id="size">
+    <label>
+     <input type="radio" value="2" name="size" />
+       2-person table
+    </label>
+    <label>
+      <input type="radio" value="4" name="size" />
+        4-person table
+    </label>
+    <label>
+      <input type="radio" value="6" name="size" />
+        6-person table
+    </label>
+  </fieldset>
+  <fieldset id="location">
+    <label>
+      <input type="radio" value="indoors" name="location" checked required multiple />
+        Indoors
+    </label>
+    <label>
+      <input type="radio" value="outdoors" name="location" />
+        Outdoors
+    </label>
+  </fieldset>
+  <button type="submit">Book table</button>
+</form>
+
