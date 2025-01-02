@@ -3,8 +3,8 @@ import logo from  './assets/logo.svg';
 function Nav() {
     return (
         <>
-            <div className="container">
-                <nav className="navbar">
+            <article className="container">
+                <nav>
                     <ul>
                         <img src= {logo} />
                         <li><a href="#">Home</a></li>
@@ -15,7 +15,7 @@ function Nav() {
                         <li><a href="#login">Login</a></li>
                     </ul>
                 </nav>
-            </div>
+            </article>
         </>
     )
 }
