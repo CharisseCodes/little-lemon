@@ -6,22 +6,13 @@
   box-sizing: border-box;
 }
 
-App {
-  font-size: 16px;
+body {
   font-family: 'Karla', sans-serif;
 }
 
-
-h1 {
-  font-size: 2rem;
-}
-
-p {
-  font-size: 1rem;
-}
-
 a {
-  font-weight: 400;
+  font-size: 18px;
+  font-weight: 600;
 }
 
 .container {
@@ -34,6 +25,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
 }
 
 .navbar li {
@@ -46,6 +38,6 @@ a {
 }
 
 .navbar img {
-  height: 60px;
+  height: 50px;
 }
 
