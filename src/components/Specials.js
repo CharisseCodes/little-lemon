@@ -29,7 +29,7 @@ function Specials() {
                         <h1>This week's specials</h1>
                         <a className="cta">Online Menu</a>
                     </section>
-                    <section className="specials-flex">
+                    <section className="specials-grid">
                         {foods.map((food, index) => (
                             <CardSpecials
                                 key= {index}
@@ -42,7 +42,6 @@ function Specials() {
                     </section>
                 </div>
             </article>
-            <article className="about">ABOUT</article>
         </>
     )
 }
