@@ -246,3 +246,48 @@ h3 {
 .testimonials-card h6 {
   margin-bottom: 15px;
 }
+
+/* ---------------- ABOUT---------------- */
+.about {
+  margin: 100px 0;
+}
+
+.about h1 {
+  color:  #495E57;
+}
+
+.about h2 {
+  color: #000;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+  justify-content: center;
+}
+
+.about-grid-image {
+  display: flex;
+  position: relative;
+}
+
+.about-grid-image img {
+  width: 60%;
+  height: auto;
+  aspect-ratio: 3/4;
+  object-fit: cover;
+  position: absolute;
+}
+
+.about .image1 {
+  top: 100px;
+  left: 0;
+  z-index: 0;
+}
+
+.about .image2 {
+  top: 0;
+  right: 0;
+  z-index: 1;
+}
